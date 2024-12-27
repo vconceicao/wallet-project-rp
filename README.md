@@ -80,6 +80,8 @@ This project implements a Wallet Service that allows operations such as creating
     - Limited the scope of advanced features such as distributed tracing and advanced monitoring.
 2. **Simplicity vs. Completeness:**
     - Focused on core functionality (create wallet, deposit, withdraw, transfer) instead of additional features like wallet analytics.
+    - Advanced Exception Treatment using ControllerAdvice.
+    - Fields validation using annotations
 3. **No Advanced Security:**
     - Authentication and authorization are not implemented in this version, as the focus was on core transactional operations.
 
